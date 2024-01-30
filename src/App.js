@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./assets/_main.scss";
+import Login from "./components/authentication/login/login";
+import "./assets/_main.scss";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Signup from "./components/authentication/SignUp/Signup";
+import Forgetpassword from "./components/authentication/Forget/forgetpassword";
+import Checkmail from "./components/authentication/checkmail/Checkmail";
+import Resetpassword from "./components/authentication/Reset/Resetpassword";
+import Verification from "./components/authentication/verification/Verification";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/forgot" element={<Forgetpassword />} />
+        <Route path="/mail" element={<Checkmail />} />
+        <Route path="/reset" element={<Resetpassword />} />
+        <Route path="/Verification" element={<Verification />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
