@@ -61,7 +61,6 @@
             width: 30px;
             height: 12px;
             background-color: rgba(245, 245, 245, 1);
-            
           }
         }
       }
@@ -136,5 +135,26 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1290px) {
+  .card-section {
+    width: 38%;
+  }
+}
+@media (max-width: 991px) {
+  .card-section {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .card-section {
+    width: 65%;
+  }
+}
+@media (max-width: 530px) {
+  .card-section {
+    width: 90%;
   }
 }

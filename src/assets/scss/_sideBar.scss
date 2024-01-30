@@ -1,0 +1,77 @@
+.sidebar {
+  width: 15%;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+  padding: 1rem;
+
+  .Logo-section {
+    padding: 0.8rem;
+  }
+
+  .nav-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    .Navbar-item {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.5rem;
+
+      .label {
+        font-family: Public Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+
+  .MenuCard-section {
+    padding: 0.3rem;
+
+    .MenuCard-description {
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      background-color: rgba(240, 240, 240, 1);
+
+      .MenuCard-Title {
+        h3 {
+          font-family: Public Sans;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+        P {
+          font-family: Public Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+      .menuBtn {
+        text-align: center;
+        margin-bottom: 3rem;
+        button {
+          font-family: Public Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: center;
+          padding: 0.75rem 0.75rem;
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,9 @@ import Forgetpassword from "./components/authentication/Forget/forgetpassword";
 import Checkmail from "./components/authentication/checkmail/Checkmail";
 import Resetpassword from "./components/authentication/Reset/Resetpassword";
 import Verification from "./components/authentication/verification/Verification";
+import Sidebar from "./components/SideBar/Sidebar";
+import Topbar from "./components/Topbar/Topbar";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -20,6 +23,7 @@ function App() {
         <Route path="/mail" element={<Checkmail />} />
         <Route path="/reset" element={<Resetpassword />} />
         <Route path="/Verification" element={<Verification />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   );
