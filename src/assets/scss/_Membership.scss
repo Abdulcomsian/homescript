@@ -1,7 +1,7 @@
 .Membership {
-
   .card {
     .card-body {
+        min-height: 45vh;
       .Grid-section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -9,11 +9,26 @@
         .header {
           grid-column: 1 / span 2;
           margin-bottom: 1rem;
+          padding: 0.5rem;
+          width: 100%;
+          border-bottom: 1px solid lightgray;
+          h3 {
+            font-family: Public Sans;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
         }
         .Membership-form {
-          margin-bottom: 1rem;
+            padding-top: 2rem;
+          margin-bottom: 2rem;
           grid-column: 1 / span 3;
         }
+      }
+      .MangePlanBtn {
+        float: right;
       }
     }
   }

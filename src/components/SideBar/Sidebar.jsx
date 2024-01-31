@@ -35,7 +35,7 @@ function Sidebar() {
             </div>
             <div className="label">My Account</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/membership"}>
             <div className="icons">
               {/* <CiHeadphones size={20} color="gray" /> */}
               <img src={navIcon3} alt="" />
@@ -53,7 +53,7 @@ function Sidebar() {
             </div>
             <div className="label">Start a Chat</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/contactus"}>
             <div className="icons">
               {/* <MdOutlinePhoneEnabled size={20} color="gray" /> */}
               <img src={navIcon5} alt="" />

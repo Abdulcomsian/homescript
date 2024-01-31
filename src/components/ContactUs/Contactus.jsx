@@ -1,18 +1,19 @@
-function Membership() {
+function Contactus() {
   return (
     <>
       <div className="Membership">
         <div className="card">
           <div className="card-body">
             <div className="Grid-section">
-              <div className="header"><h3>MemberShip</h3></div>
+              <div className="header">
+                <h3>Contact Us</h3>
+              </div>
               <div></div>
               <div className="Membership-form">
-                <label className="label">Your Current Plan</label>
                 <input
                   type="text"
                   class="form-control input"
-                  placeholder="Social Post + Descriptions  Yearly"
+                  placeholder="Name"
                 />
               </div>
             </div>
@@ -27,4 +28,4 @@ function Membership() {
     </>
   );
 }
-export default Membership;
+export default Contactus;
