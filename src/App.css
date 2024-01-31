@@ -1,11 +1,32 @@
-*, *::after, *::before{
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
-
-html{
+html {
   box-sizing: border-box;
 }
 
+body {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  font-family: "Public Sans", sans-serif;
+}
+
+.nav-sublist {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-sublist li {
+  list-style: none;
+}
