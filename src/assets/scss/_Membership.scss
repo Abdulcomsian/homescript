@@ -1,0 +1,20 @@
+.Membership {
+
+  .card {
+    .card-body {
+      .Grid-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .header {
+          grid-column: 1 / span 2;
+          margin-bottom: 1rem;
+        }
+        .Membership-form {
+          margin-bottom: 1rem;
+          grid-column: 1 / span 3;
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import Sidebar from "../SideBar/Sidebar";
 import Topbar from "../Topbar/Topbar";
 import { useState } from "react";
 import Myaccount from "../MyAccount/Myaccount";
+import Membership from "../Membership/Membership";
 
 function Dashboard() {
   const [sideBar, setSideBar] = useState(false);
@@ -29,6 +30,7 @@ function Dashboard() {
                 }}
               />
               <Route exact path="/myaccount" element={<Myaccount />} />
+              <Route exact path="/membership" element={<Membership />} />
             </Routes>
           </div>
         </div>
