@@ -23,7 +23,7 @@ function App() {
         <Route path="/mail" element={<Checkmail />} />
         <Route path="/reset" element={<Resetpassword />} />
         <Route path="/Verification" element={<Verification />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/*" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,94 @@
+.Myaccount {
+  label {
+    font-family: Public Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(140, 140, 140, 1);
+    margin-bottom: 0.5rem;
+  }
+  input {
+    padding: 0.75rem 0.75rem;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .Password-section,
+  .Details-setion {
+    margin-bottom: 3rem;
+    .card {
+      padding: 1rem;
+
+      .header {
+        padding: 0.5rem;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+
+        h3 {
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+      .formSection {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .Password-section {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5rem;
+
+      .Password-Details {
+        .title {
+          h3 {
+            font-family: Public Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .detailsBtn-section {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    .cancel {
+      padding: 0.7rem 1.2rem;
+      border: 1px solid lightgray;
+      //styleName: Body 14/regular;
+      font-family: Public Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .save {
+      padding: 0.7rem 1.5rem;
+      border: 1px solid rgba(0, 0, 0, 0.02);
+      //styleName: Body 14/regular;
+      font-family: Public Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}

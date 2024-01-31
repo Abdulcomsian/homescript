@@ -1,12 +1,10 @@
-import Logo from "../../assets/images/Logo.svg";
-import { NavLink } from "react-router-dom";
-import { MdAvTimer } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
 import { CiHeadphones } from "react-icons/ci";
 import { FaRocket } from "react-icons/fa";
-import { MdOutlinePhoneEnabled } from "react-icons/md";
+import { MdAvTimer, MdOutlinePhoneEnabled } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import Logo from "../../assets/images/Logo.svg";
 import HowWork from "../../assets/images/howwork.png";
-import Topbar from "../Topbar/Topbar";
 
 function Sidebar() {
   return (
@@ -22,7 +20,7 @@ function Sidebar() {
             </div>
             <div className="label">Listings</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/myaccount"}>
             <div className="icons">
               <BsChatDots size={20} color="gray" />
             </div>

@@ -1,5 +1,26 @@
-.topbar {
+
+
+.wrapper {
+  position: relative;
+  top: 0;
+}
+
+.main-panel {
   width: 85%;
+  float: right;
+  min-height: 85vh;
+  transition: 0.8s ease-in-out;
+
+
+
+  .main-content {
+    padding: 1.8rem;
+  }
+}
+
+.topbar {
+  // width: 85%;
+  // float: right;
   .topbar-section {
     width: 100%;
     padding: 1rem 2rem;
