@@ -1,10 +1,11 @@
-import { BsChatDots } from "react-icons/bs";
-import { CiHeadphones } from "react-icons/ci";
-import { FaRocket } from "react-icons/fa";
-import { MdAvTimer, MdOutlinePhoneEnabled } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/images/Logo.svg";
 import HowWork from "../../assets/images/howwork.png";
+import navIcon1 from "../../assets/images/icon-wrapper.svg";
+import Logo from "../../assets/images/Logo.svg";
+import navIcon2 from "../../assets/images/nav-icon2.svg";
+import navIcon3 from "../../assets/images/nav-icon3.svg";
+import navIcon4 from "../../assets/images/nav-icon4.svg";
+import navIcon5 from "../../assets/images/nav-icon5.svg";
 
 function Sidebar() {
   return (
@@ -16,19 +17,28 @@ function Sidebar() {
         <div className="nav-section">
           <NavLink className="Navbar-item">
             <div className="icons">
-              <MdAvTimer size={25} color="gray" />
+              {/* <MdAvTimer size={25} color="gray" /> */}
+              <img src={navIcon1} alt="listings nav link item" />
             </div>
-            <div className="label">Listings</div>
+            <div className="label w-100">
+              <div className="nav-link-main">Listings</div>
+              <ul className="nav-sublist">
+                <li>All Listings</li>
+                <li className="fw-b">New Listing</li>
+              </ul>
+            </div>
           </NavLink>
           <NavLink className="Navbar-item" to={"/dashboard/myaccount"}>
             <div className="icons">
-              <BsChatDots size={20} color="gray" />
+              {/* <BsChatDots size={20} color="gray" /> */}
+              <img src={navIcon2} alt="my account nav link item" />
             </div>
             <div className="label">My Account</div>
           </NavLink>
           <NavLink className="Navbar-item">
             <div className="icons">
-              <CiHeadphones size={20} color="gray" />
+              {/* <CiHeadphones size={20} color="gray" /> */}
+              <img src={navIcon3} alt="" />
             </div>
             <div className="label">Membership</div>
           </NavLink>
@@ -38,13 +48,15 @@ function Sidebar() {
 
           <NavLink className="Navbar-item">
             <div className="icons">
-              <FaRocket size={20} color="gray" />
+              {/* <FaRocket size={20} color="gray" /> */}
+              <img src={navIcon4} alt="" />
             </div>
             <div className="label">Start a Chat</div>
           </NavLink>
           <NavLink className="Navbar-item">
             <div className="icons">
-              <MdOutlinePhoneEnabled size={20} color="gray" />
+              {/* <MdOutlinePhoneEnabled size={20} color="gray" /> */}
+              <img src={navIcon5} alt="" />
             </div>
             <div className="label">Send a Message</div>
           </NavLink>
