@@ -5,6 +5,7 @@ import { useState } from "react";
 import Myaccount from "../MyAccount/Myaccount";
 import Membership from "../Membership/Membership";
 import Contactus from "../ContactUs/Contactus";
+import NewListing from "../NewListings/NewListing";
 
 function Dashboard() {
   const [sideBar, setSideBar] = useState(false);
@@ -31,6 +32,7 @@ function Dashboard() {
                 }}
               />
               <Route exact path="/myaccount" element={<Myaccount />} />
+              <Route exact path="/newlisting" element={<NewListing />} />
               <Route exact path="/membership" element={<Membership />} />
               <Route exact path="/contactus" element={<Contactus />} />
             </Routes>

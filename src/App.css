@@ -15,22 +15,61 @@ body {
   font-size: 62.5%;
   font-family: "Public Sans", sans-serif;
 }
+.error-container {
+  background-color: #ff4d4f;
+  padding: 0.5rem;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  position: relative;
+  font-family: inherit;
+}
+.error-container .closeIcon {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.nav-link-main .accordion-button {
+  padding: 0 !important;
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav-link-main .accordion-body {
+  padding: 1.4rem 0 0 0;
+}
+.accordion-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.nav-link-main .accordion-item {
+  border: none;
+}
 
 .nav-sublist {
   padding-left: 0;
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  margin-bottom: 0;
 
   font-family: Public Sans;
   font-size: 14px;
   font-weight: 400;
 }
+.nav-sublist a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .nav-sublist li {
   list-style: none;
 }
-
 
 .label {
   font-family: Public Sans;
