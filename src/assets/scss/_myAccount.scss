@@ -23,23 +23,32 @@
     margin-bottom: 3rem;
     .card {
       padding: 1rem;
+      padding-top: 0rem;
+      .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
 
-      .header {
-        padding: 0.5rem;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
+        .header {
+          grid-column: 1 / span 2;
+          padding: 0.5rem;
+          width: 100%;
+          border-bottom: 1px solid lightgray;
 
-        h3 {
-          font-family: Public Sans;
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 24px;
-          letter-spacing: 0em;
-          text-align: left;
+          h3 {
+            font-family: Public Sans;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
         }
-      }
-      .formSection {
-        margin-bottom: 1rem;
+        .formSection {
+          // padding-top: 1rem;
+          margin-bottom: 1rem;
+          grid-column: 1 / span 3;
+        }
       }
     }
   }
@@ -47,10 +56,11 @@
     .main {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 5rem;
+      gap: 3rem;
 
       .Password-Details {
         .title {
+          margin-bottom: 1.5rem;
           h3 {
             font-family: Public Sans;
             font-size: 14px;
@@ -58,6 +68,25 @@
             line-height: 22px;
             letter-spacing: 0em;
             text-align: left;
+          }
+        }
+        .List {
+          ul {
+            list-style-image: url("../images/tick.svg");
+            list-style-position: inside;
+            text-align: center;
+            padding: 0;
+            li {
+              padding: 0.8rem;
+              font-family: Public Sans;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 22px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: rgba(140, 140, 140, 1);
+              border-bottom: 1px solid lightgray;
+            }
           }
         }
       }
