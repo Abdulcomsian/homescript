@@ -42,6 +42,13 @@
           text-align: left;
         }
       }
+
+       .active {
+        .label {
+          font-weight: 700 !important;
+          color: black !important;
+        }
+      }
     }
 
     .MenuCard-section {

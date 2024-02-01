@@ -35,6 +35,8 @@ function Dashboard() {
               <Route exact path="/newlisting" element={<NewListing />} />
               <Route exact path="/membership" element={<Membership />} />
               <Route exact path="/contactus" element={<Contactus />} />
+              <Route exact path="/all-listing" element={<Contactus />} />
+              <Route exact path="/chat" element={<Contactus />} />
             </Routes>
           </div>
         </div>

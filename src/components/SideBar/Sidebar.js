@@ -31,7 +31,7 @@ function Sidebar() {
                   <Accordion.Body>
                     <ul className="nav-sublist">
                       <li>
-                        <Link to="/all-listing">All Listings</Link>
+                        <Link to="/dashboard/all-listing">All Listings</Link>
                       </li>
                       <li className="fw-bold">
                         <Link to="/dashboard/newlisting">New Listing</Link>
@@ -49,25 +49,25 @@ function Sidebar() {
             </div>
             <div className="label">My Account</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/membership"}>
             <div className="icons">
               {/* <CiHeadphones size={20} color="gray" /> */}
               <img src={navIcon3} alt="" />
             </div>
             <div className="label">Membership</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <div className="Navbar-item">
             <div className="label">Support</div>
-          </NavLink>
+          </div>
 
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/chat"}>
             <div className="icons">
               {/* <FaRocket size={20} color="gray" /> */}
               <img src={navIcon4} alt="" />
             </div>
             <div className="label">Start a Chat</div>
           </NavLink>
-          <NavLink className="Navbar-item">
+          <NavLink className="Navbar-item" to={"/dashboard/contactus"}>
             <div className="icons">
               {/* <MdOutlinePhoneEnabled size={20} color="gray" /> */}
               <img src={navIcon5} alt="" />
