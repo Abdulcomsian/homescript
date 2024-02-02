@@ -14,7 +14,7 @@ import Resetpassword from "./components/authentication/Reset/Resetpassword";
 import Signup from "./components/authentication/SignUp/Signup";
 import Checkmail from "./components/authentication/checkmail/Checkmail";
 import Verification from "./components/authentication/verification/Verification";
-import ContactUs from "./components/ContactUs/ContactUs";
+import ContactUs from "./components/ContactUs/Contactus";
 
 function App() {
   return (
