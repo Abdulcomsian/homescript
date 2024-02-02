@@ -1,0 +1,78 @@
+.Main-Contact {
+  .container {
+    padding: 5rem;
+    .contact-title {
+      margin-bottom: 4rem;
+      p {
+        //styleName: Subheading 16/Medium;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(24, 144, 255, 1);
+      }
+
+      h3 {
+        //styleName: Large heading 38/bold;
+        font-family: Public Sans;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(31, 31, 31, 1);
+      }
+      h5 {
+        //styleName: Subheading 16/regular;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(140, 140, 140, 1);
+        width: 50%;
+        margin: auto;
+      }
+    }
+    .contact-form-section {
+      .contact-grid-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-bottom: 3rem;
+
+        .text-section {
+          grid-column: 1 / span 2;
+        }
+      }
+    }
+    .contact-button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .Agree-section {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        input {
+          padding: 0.6rem;
+        }
+        label {
+          font-family: Public Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        a{
+            text-decoration: none;
+        }
+      }
+    }
+  }
+}

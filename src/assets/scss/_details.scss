@@ -1,0 +1,106 @@
+.Details {
+  .Name-Section {
+    margin-bottom: 3rem;
+    .card {
+      .card-body {
+        .title {
+          padding: 0.5rem;
+          h3 {
+            //styleName: Large heading 30/bold;
+            font-family: Public Sans;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 38px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          p {
+            //styleName: Subheading 16/regular;
+            font-family: Public Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(140, 140, 140, 1);
+          }
+        }
+      }
+    }
+  }
+  .Description-card {
+    ul {
+      border-bottom: none;
+      gap: 1rem;
+      li {
+        margin-bottom: 2rem;
+        button {
+          padding: 0.7rem 1.5rem;
+          //styleName: Body 14/regular;
+          font-family: Public Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: center;
+          background-color: white;
+          color: black;
+          border-radius: 5px;
+          border: 1px solid lightgray !important;
+        }
+
+        .active {
+          background-color: rgba(24, 144, 255, 1);
+          color: white !important;
+          border: none !important;
+        }
+      }
+    }
+    .card {
+      margin-bottom: 2rem;
+      .card-header {
+        padding: 1rem;
+        background-color: white;
+        h3 {
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+      }
+      .card-body {
+        padding: 2rem;
+
+        h4 {
+          //styleName: Subheading 16/Medium;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+
+        p {
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+      .card-footer {
+        background-color: white;
+        padding: 1rem;
+        text-align: end;
+        border-top: 1px dashed lightgray;
+      }
+    }
+  }
+}

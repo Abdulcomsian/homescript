@@ -1,0 +1,38 @@
+.terms-condition {
+  padding: 4rem;
+
+  .Page-title {
+    margin-bottom: 2rem;
+    h3 {
+      //styleName: Large heading 30/bold;
+      font-family: Public Sans;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p {
+      //styleName: Subheading 16/Medium;
+      font-family: Public Sans;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(24, 144, 255, 1);
+    }
+  }
+  .Page-description {
+    padding-bottom: 5rem;
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(140, 140, 140, 1);
+    }
+  }
+}
