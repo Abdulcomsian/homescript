@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import "swiper/css";
+import 'swiper/swiper-bundle.css';
+
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import codeQuality from "../../assets/images/CodeQuality.svg";
 
 function ContactUs() {
   return (
@@ -82,7 +84,7 @@ function ContactUs() {
               </form>
             </div>
           </div>
-          <div>
+          <div className="Slide">
             <div className="container">
               <div className="contact-title">
                 <p>Testimonials</p>
@@ -93,26 +95,126 @@ function ContactUs() {
                 </h5>
               </div>
             </div>
-            <div>
+            <div className="Silder-scetion">
               <Swiper
                 slidesPerView={3}
-                spaceBetween={150}
+                autoplay={{ delay: 3000 }}
+                spaceBetween={50}
                 pagination={{
                   clickable: true,
                 }}
-              
-                modules={[Pagination]}
                 className="mySwiper"
               >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="Icon">
+                        <span>
+                          <img src={codeQuality} />
+                        </span>
+                      </div>
+                      <div className="Description">
+                        <h3>Code Quality</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                        <p>
+                          <span className="text-dark">Joe</span>- Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="Icon">
+                        <span>
+                          <img src={codeQuality} />
+                        </span>
+                      </div>
+                      <div className="Description">
+                        <h3>Code Quality</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                        <p>
+                          <span className="text-dark">Joe</span>- Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="Icon">
+                        <span>
+                          <img src={codeQuality} />
+                        </span>
+                      </div>
+                      <div className="Description">
+                        <h3>Code Quality</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                        <p>
+                          <span className="text-dark">Joe</span>- Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="Icon">
+                        <span>
+                          <img src={codeQuality} />
+                        </span>
+                      </div>
+                      <div className="Description">
+                        <h3>Code Quality</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                        <p>
+                          <span className="text-dark">Joe</span>- Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="Icon">
+                        <span>
+                          <img src={codeQuality} />
+                        </span>
+                      </div>
+                      <div className="Description">
+                        <h3>Code Quality</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
+                        <p>
+                          <span className="text-dark">Joe</span>- Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
