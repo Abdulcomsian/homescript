@@ -8,12 +8,18 @@
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
   /* 1rem = 10px */
-  font-size: 62.5%;
   font-family: "Public Sans", sans-serif;
+}
+
+input::placeholder {
+  font-family: Public Sans;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 .error-container {
   background-color: #ff4d4f;
@@ -25,6 +31,7 @@ body {
   border-radius: 6px;
   position: relative;
   font-family: inherit;
+  margin-bottom: 2.5rem;
 }
 .error-container .closeIcon {
   font-size: 1.5rem;
@@ -101,4 +108,11 @@ body {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+/* BUttons  */
+.btn-container {
+}
+.btnNext {
+  float: right;
 }
