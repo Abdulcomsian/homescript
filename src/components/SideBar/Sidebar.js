@@ -67,7 +67,7 @@ function Sidebar() {
             </div>
             <div className="label">Start a Chat</div>
           </NavLink>
-          <NavLink className="Navbar-item" to={"/dashboard/contactus"}>
+          <NavLink className="Navbar-item" to={"/dashboard/contact"}>
             <div className="icons">
               {/* <MdOutlinePhoneEnabled size={20} color="gray" /> */}
               <img src={navIcon5} alt="" />

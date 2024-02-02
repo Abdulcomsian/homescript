@@ -4,15 +4,17 @@ import Topbar from "../Topbar/Topbar";
 import { useState } from "react";
 import Myaccount from "../MyAccount/Myaccount";
 import Membership from "../Membership/Membership";
-import Contactus from "../ContactUs/Contactus";
+import Contactus from "../SendMessage/SendMessage";
 import NewListing from "../NewListings/NewListing";
+import Details from "../Details/Details";
+import SendMessage from "../SendMessage/SendMessage";
 
 function Dashboard() {
   const [sideBar, setSideBar] = useState(false);
 
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper clearfix">
         <div
           className="sidebar-wrapper"
           style={{ width: sideBar ? "0%" : "15%" }}
@@ -34,9 +36,10 @@ function Dashboard() {
               <Route exact path="/myaccount" element={<Myaccount />} />
               <Route exact path="/newlisting" element={<NewListing />} />
               <Route exact path="/membership" element={<Membership />} />
-              <Route exact path="/contactus" element={<Contactus />} />
+              <Route exact path="/contact" element={<Contactus />} />
               <Route exact path="/all-listing" element={<Contactus />} />
-              <Route exact path="/chat" element={<Contactus />} />
+              <Route exact path="/chat" element={<SendMessage />} />
+              <Route exact path="/details" element={<Details />} />
             </Routes>
           </div>
         </div>
