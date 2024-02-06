@@ -15,6 +15,8 @@ import Signup from "./components/authentication/SignUp/Signup";
 import Checkmail from "./components/authentication/checkmail/Checkmail";
 import Verification from "./components/authentication/verification/Verification";
 import ContactUs from "./components/ContactUs/Contactus";
+import HowWork from "./components/How Work/HowWork";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/termscondition" element={<TermsAndCondition />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/howwork" element={<HowWork />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
