@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+
+  &__col-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.span-all {
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,66 @@
+.stepWrapper {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  font-family: "Public Sans", sans-serif;
+  flex-grow: 1;
+}
+
+.step:not(:last-child)::after {
+  content: "";
+  border: 1px solid #f0f0f0;
+  display: inline-block;
+
+  flex-grow: 1;
+}
+.step:last-child {
+  flex-grow: 0;
+}
+.active .stepNumber {
+  font-weight: bold;
+  background-color: #1890ff;
+  border: 1px solid #1890ff;
+  color: white;
+}
+.active.step::after {
+  font-weight: bold;
+  border: 1px solid #1890ff;
+}
+.active .desc {
+  color: #000;
+}
+
+.stepNumber {
+  background-color: transparent;
+  color: #d9d9d9;
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border: 1px solid #d9d9d9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step:not(:first-child) .stepNumber {
+  margin-left: 1.6rem;
+}
+
+.desc {
+  color: #8c8c8c;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
