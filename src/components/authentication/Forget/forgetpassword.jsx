@@ -16,13 +16,13 @@ function Forgetpassword() {
               <label>Email </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 placeholder="sally@tryhomescript.com"
               />
             </div>
 
             <div className="field">
-              <button type="button" class="btn btn-primary ">
+              <button type="button" className="btn btn-primary ">
                 Submit
               </button>
             </div>

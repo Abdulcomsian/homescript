@@ -68,7 +68,7 @@ function Signup() {
                 <label>Name</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter your Name"
                 />
               </div>
@@ -76,7 +76,7 @@ function Signup() {
                 <label>Email </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter your email"
                 />
               </div>
@@ -84,7 +84,7 @@ function Signup() {
                 <label>Website </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="sally.com"
                 />
               </div>
@@ -92,7 +92,7 @@ function Signup() {
                 <label>Password</label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter your password"
                   value={password}
                   onChange={handlePasswordChange}
@@ -122,17 +122,17 @@ function Signup() {
               </div>
               <div className="field d-flex align-items-center gap-3">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-                <label class="form-check-label m-0 text-dark">
+                <label className="form-check-label m-0 text-dark">
                   Agree with Terms & Conditions
                 </label>
               </div>
               <div className="field">
-                <button type="submit" class="btn btn-primary ">
+                <button type="submit" className="btn btn-primary ">
                   Sign Up
                 </button>
               </div>

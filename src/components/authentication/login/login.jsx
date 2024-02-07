@@ -16,7 +16,7 @@ function Login() {
               <label>Email address</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 placeholder="Enter your email"
               />
             </div>
@@ -24,12 +24,12 @@ function Login() {
               <label>Password</label>
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 placeholder="Enter your password"
               />
             </div>
             <div className="field">
-              <button type="button" class="btn btn-primary ">
+              <button type="button" className="btn btn-primary ">
                 Sign In
               </button>
             </div>

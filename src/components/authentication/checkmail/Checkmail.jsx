@@ -12,10 +12,12 @@ function Checkmail() {
           </div>
           <div className="Input-section">
             <div className="field">
-              <p className="description">We have sent a password recover instructions to your email.</p>
+              <p className="description">
+                We have sent a password recover instructions to your email.
+              </p>
             </div>
             <div className="field">
-              <button type="button" class="btn btn-primary ">
+              <button type="button" className="btn btn-primary ">
                 Sign In
               </button>
             </div>

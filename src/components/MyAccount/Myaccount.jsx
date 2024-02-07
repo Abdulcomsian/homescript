@@ -4,39 +4,39 @@ function Myaccount() {
       <div className="Myaccount">
         <div className="Details-setion">
           <div className="card">
-            <div class="card-body ">
+            <div className="card-body ">
               <form>
                 <div className=" ">
                   <div className="main">
-                    <div class="header">
+                    <div className="header">
                       <h3>Details</h3>
                     </div>
                     <div></div>
                     <div className="row formSection">
                       <div className="col-sm-6 mb-3">
                         <label>Name</label>
-                        <input type="text" class="form-control" />
+                        <input type="text" className="form-control" />
                       </div>
                       <div className="col-sm-6 mb-3">
                         <label>Email</label>
-                        <input type="email" class="form-control" />
+                        <input type="email" className="form-control" />
                       </div>
                       <div className="col-sm-6 mb-3">
                         <label>Role</label>
-                        <input type="text" class="form-control" />
+                        <input type="text" className="form-control" />
                       </div>
                       <div className="col-sm-6 mb-3">
                         <label>Website</label>
-                        <input type="text" class="form-control" />
+                        <input type="text" className="form-control" />
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="detailsBtn-section">
-                  <button type="button" class="btn btn-light cancel">
+                  <button type="button" className="btn btn-light cancel">
                     Cancel
                   </button>
-                  <button type="submit" class="btn btn-primary save">
+                  <button type="submit" className="btn btn-primary save">
                     Save
                   </button>
                 </div>
@@ -47,26 +47,26 @@ function Myaccount() {
 
         <div className="Password-section">
           <div className="card">
-            <div class="card-body ">
+            <div className="card-body ">
               <form>
                 <div className="formSection">
                   <div className="main">
-                    <div class="header">
+                    <div className="header">
                       <h3>Change password</h3>
                     </div>
                     <div></div>
                     <div>
                       <div className="mb-3">
                         <label>Current password</label>
-                        <input type="password" class="form-control" />
+                        <input type="password" className="form-control" />
                       </div>
                       <div className=" mb-3">
                         <label>New password</label>
-                        <input type="password" class="form-control" />
+                        <input type="password" className="form-control" />
                       </div>
                       <div className=" mb-3">
                         <label>Confirm password</label>
-                        <input type="password" class="form-control" />
+                        <input type="password" className="form-control" />
                       </div>
                     </div>
                     <div className="Password-Details">
@@ -85,10 +85,10 @@ function Myaccount() {
                   </div>
                 </div>
                 <div className="detailsBtn-section">
-                  <button type="button" class="btn btn-light cancel">
+                  <button type="button" className="btn btn-light cancel">
                     Cancel
                   </button>
-                  <button type="submit" class="btn btn-primary save">
+                  <button type="submit" className="btn btn-primary save">
                     Save
                   </button>
                 </div>
