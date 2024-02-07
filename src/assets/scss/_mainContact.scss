@@ -124,3 +124,51 @@
     }
   }
 }
+
+.Silder-scetion {
+  padding-bottom: 10rem;
+  .card {
+    .card-body {
+      padding: 2rem;
+      padding-bottom: 0.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      .Icon {
+        span {
+          width: 60px;
+          display: block;
+          height: 60px;
+          border: 1px solid rgba(240, 240, 240, 1);
+          border-radius: 50%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .Description {
+        h3 {
+          //styleName: Subheading 16/Medium;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+    }
+  }
+}
+
+

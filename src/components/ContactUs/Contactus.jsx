@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "swiper/css";
-import 'swiper/swiper-bundle.css';
+import "swiper/swiper-bundle.css";
 
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -77,7 +77,7 @@ function ContactUs() {
                       <Link>Cookie Policy</Link>
                     </label>
                   </div>
-                  <div>
+                  <div className="Button">
                     <button className="btn btn-primary">Submit Now</button>
                   </div>
                 </div>
@@ -104,6 +104,21 @@ function ContactUs() {
                   clickable: true,
                 }}
                 className="mySwiper"
+                breakpoints={{
+                  // when window width is >= 768px
+                  991: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                  },
+                  320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                }}
               >
                 <SwiperSlide>
                   <div className="card">

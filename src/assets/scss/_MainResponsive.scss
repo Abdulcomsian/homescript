@@ -1,0 +1,50 @@
+@media (max-width: 991px) {
+  .Silder-scetion {
+    .card {
+      margin: 2rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Main-Contact {
+    .container {
+      .contact-title {
+        h3 {
+          font-size: 30px;
+        }
+        h5 {
+          //styleName: Subheading 16/regular;
+          width: 100%;
+          margin: auto;
+        }
+      }
+
+      .contact-button {
+        display: block;
+
+        .Button {
+          margin-top: 1rem;
+          float: right;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 510px) {
+  .Main-Contact {
+    .container {
+      padding: 2rem;
+      margin-bottom: 4rem;
+
+      .contact-form-section {
+        .contact-grid-section {
+          grid-template-columns: repeat(1, 1fr);
+
+          .text-section {
+            grid-column: 1 / span 1;
+          }
+        }
+      }
+    }
+  }
+}

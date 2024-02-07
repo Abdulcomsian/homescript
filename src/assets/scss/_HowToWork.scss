@@ -1,0 +1,207 @@
+.HowToWork {
+  .easiest-section {
+    position: relative;
+
+    height: 700px;
+
+    .Title-Work {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      margin-top: 10rem;
+      .Des {
+        width: 35%;
+        span {
+          color: #1890ff;
+        }
+        h3 {
+          //styleName: Large heading 38/bold;
+          font-family: Public Sans;
+          font-size: 38px;
+          font-weight: 700;
+          line-height: 46px;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        p {
+          //styleName: Subheading 16/regular;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+    }
+
+    .Image-wrapper {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 2rem;
+    }
+  }
+
+  .Image-Bottom-Section {
+    height: 660px;
+    background-color: rgba(20, 20, 20, 1);
+    .Media-Section {
+      padding-top: 36rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      width: 50%;
+      gap: 3rem;
+      padding-bottom: 1rem;
+      margin: auto;
+
+      .Detail-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        .Description {
+          p {
+            //styleName: Subheading 16/regular;
+            font-family: Public Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .Work-Slider {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
+    .Testimonials {
+      margin-bottom: 6rem;
+      text-align: center;
+
+      span {
+        //styleName: Subheading 16/Medium;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(24, 144, 255, 1);
+      }
+
+      h3 {
+        //styleName: Large heading 30/bold;
+        font-family: Public Sans;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        //styleName: Subheading 16/regular;
+        font-family: Public Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(140, 140, 140, 1);
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .HowToWork {
+    .easiest-section {
+      .Title-Work {
+        margin-top: 5rem;
+        .Des {
+          width: 70%;
+          h3 {
+            font-size: 30px;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+      .Image-wrapper {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .Image-Bottom-Section {
+      .Media-Section {
+        padding-top: 36rem;
+        width: 90%;
+        gap: 3rem;
+        padding-bottom: 1rem;
+        margin: auto;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .HowToWork {
+    .Image-Bottom-Section {
+      height: 600px;
+      .Media-Section {
+        padding-top: 25rem;
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 510px) {
+  .HowToWork {
+    .easiest-section {
+      height: 600px;
+
+      .Title-Work {
+        margin-top: 3rem;
+        .Des {
+          width: 95%;
+          h3 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30px;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+
+    .Image-Bottom-Section {
+      height: 600px;
+      background-color: rgba(20, 20, 20, 1);
+      .Media-Section {
+        padding-top: 5rem;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        gap: 3rem;
+      }
+    }
+  }
+}

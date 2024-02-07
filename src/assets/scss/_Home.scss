@@ -1,0 +1,331 @@
+.Home-Section {
+  .Section1 {
+    // background-image: url("../images/homepage.png");
+    background-image: url("../images/laptop.png");
+    background-repeat: no-repeat;
+    // background-size: 100% 100%;
+    // background-size: cover;
+    background-position: right;
+    background-color: rgb(31, 31, 31);
+    height: 95vh;
+
+    .gradient-section {
+      height: 100%;
+      background: linear-gradient(
+        346.17deg,
+        #000000 9.8%,
+        rgba(15, 15, 15, 0.91) 26.13%,
+        rgba(67, 67, 67, 0.19) 56.67%
+      );
+
+      display: flex;
+      align-items: center;
+
+      .Home-Title {
+        width: 85%;
+        margin: auto;
+        color: white;
+
+        h3 {
+          font-family: Public Sans;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 52px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-bottom: 2.8rem;
+        }
+        p {
+          //styleName: Subheading 16/regular;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-bottom: 2.8rem;
+        }
+        .trailBtn {
+          padding: 1.3rem 2rem;
+        }
+      }
+    }
+  }
+
+  .Section2 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    .Feature-Section {
+      .Testimonials {
+        margin-bottom: 6rem;
+        text-align: center;
+
+        span {
+          //styleName: Subheading 16/Medium;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(24, 144, 255, 1);
+        }
+
+        h3 {
+          //styleName: Large heading 30/bold;
+          font-family: Public Sans;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          //styleName: Subheading 16/regular;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+
+      .Features-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.8rem;
+
+        .card {
+          .card-body {
+            padding: 3rem;
+
+            .Title {
+              margin-top: 1.5rem;
+              h3 {
+                //styleName: Subheading 16/Medium;
+                font-family: Public Sans;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+              }
+              p {
+                //styleName: Body 14/regular;
+                font-family: Public Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: rgba(140, 140, 140, 1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Section3 {
+    .Pricing-section {
+      .Pricing-header {
+        margin-bottom: 6rem;
+        text-align: center;
+
+        span {
+          //styleName: Subheading 16/Medium;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(24, 144, 255, 1);
+        }
+
+        h3 {
+          //styleName: Large heading 30/bold;
+          font-family: Public Sans;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-top: 1rem;
+          margin-bottom: 2rem;
+        }
+        p {
+          //styleName: Subheading 16/regular;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: rgba(140, 140, 140, 1);
+        }
+      }
+
+      .Switch-Section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+
+        p {
+          //styleName: Subheading 16/Medium;
+          font-family: Public Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin: 0;
+        }
+      }
+
+      .priceing-card-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        .card {
+          width: 100%;
+          padding: 3.5rem;
+          .pricing-Grid {
+            display: grid;
+            grid-template-columns: 100px repeat(3, 1fr);
+            align-items: center;
+            gap: 3rem;
+
+            .column1 {
+              //   grid-column: 1 / span 2;
+              //   text-align: end;
+              justify-self: start;
+            }
+            .Heading {
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              gap: 1.5rem;
+              h3 {
+                //styleName: Heading 20/bold;
+                font-family: Public Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin: 0;
+              }
+            }
+
+            .Listing {
+              .Items {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                p {
+                  //styleName: Body 14/regular;
+                  font-family: Public Sans;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 22px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                }
+              }
+              .Items:not(:last-child) {
+                margin-bottom: 1.7rem;
+              }
+            }
+
+            .Register-Section {
+              .RegisterBtn {
+                border: 1px solid rgba(217, 217, 217, 1);
+                //styleName: Subheading 16/regular;
+                font-family: Public Sans;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+                padding: 1rem 1.8rem;
+                border-radius: 6px;
+              }
+              .Pricing {
+                display: flex;
+                align-items: center;
+                margin-bottom: 3rem;
+                h4 {
+                  //styleName: Large heading 30/bold;
+                  font-family: Public Sans;
+                  font-size: 30px;
+                  font-weight: 700;
+                  line-height: 38px;
+                  letter-spacing: 0em;
+                }
+
+                span {
+                  //styleName: Subheading 16/Medium;
+                  font-family: Public Sans;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  letter-spacing: 0em;
+                  text-align: center;
+                  color: rgba(140, 140, 140, 1);
+                  margin-left: 0.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Home-Section {
+    .Section1 {
+      height: 75vh;
+    }
+    .Section2 {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+
+      .Feature-Section {
+        .Features-card {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    }
+
+    .Section3 {
+      .Pricing-section {
+        .priceing-card-section {
+          .card {
+            padding: 1rem;
+            .pricing-Grid {
+              grid-template-columns: repeat(1, 1fr);
+              justify-items: center;
+
+              .column1 {
+                justify-self: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

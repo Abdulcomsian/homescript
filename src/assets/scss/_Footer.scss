@@ -4,6 +4,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 7rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    gap: 1.5rem;
     color: white;
 
     .section {
@@ -73,6 +76,38 @@
       letter-spacing: 0em;
       text-align: left;
       color: rgba(191, 191, 191, 1);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .main-footer {
+    .footer-Grid {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 7rem;
+      gap: 3.5rem;
+    }
+  }
+}
+@media (max-width: 510px) {
+  .main-footer {
+    .footer-Grid {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 5rem;
+      gap: 3.5rem;
+      .section {
+        .section-title {
+          h3 {
+            text-align: center;
+          }
+        }
+        .section-description {
+          text-align: center !important;
+          p {
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }
