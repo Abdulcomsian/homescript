@@ -29,42 +29,42 @@ function ContactUs() {
                   <div className="">
                     <input
                       type="text"
-                      class="form-control input"
+                  className="form-control input"
                       placeholder="Name"
                     />
                   </div>
                   <div className="">
                     <input
                       type="text"
-                      class="form-control input"
+                  className="form-control input"
                       placeholder="Compnay Name"
                     />
                   </div>
                   <div className="">
                     <input
                       type="text"
-                      class="form-control input"
+                  className="form-control input"
                       placeholder="Email Address"
                     />
                   </div>
                   <div className="">
                     <input
                       type="text"
-                      class="form-control input"
+                  className="form-control input"
                       placeholder="Phone Number"
                     />
                   </div>
                   <div className="text-section">
                     <textarea
                       type="text"
-                      class="form-control input"
+                  className="form-control input"
                       placeholder="Message"
                       rows={6}
                     />
                   </div>
                 </div>
                 <div className="contact-button">
-                  <div class="form-check Agree-section">
+              <button type="submit" className="btn btn-primary">
                     <input
                       class="form-check-input"
                       type="checkbox"

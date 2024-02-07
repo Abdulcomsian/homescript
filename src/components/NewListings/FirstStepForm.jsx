@@ -4,7 +4,7 @@ export default function FirstStepForm({ dataInputs }) {
   return (
     <>
       {dataInputs.map((data) => (
-        <LabledInput inputData={data} />
+        <LabledInput inputData={data} key={data.label} />
       ))}
     </>
   );

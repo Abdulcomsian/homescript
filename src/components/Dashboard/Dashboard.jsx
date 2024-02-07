@@ -8,6 +8,7 @@ import Contactus from "../SendMessage/SendMessage";
 import NewListing from "../NewListings/NewListing";
 import Details from "../Details/Details";
 import SendMessage from "../SendMessage/SendMessage";
+import AllListing from "../AllListing/AllListing";
 
 function Dashboard() {
   const [sideBar, setSideBar] = useState(false);
@@ -37,7 +38,7 @@ function Dashboard() {
               <Route exact path="/newlisting" element={<NewListing />} />
               <Route exact path="/membership" element={<Membership />} />
               <Route exact path="/contact" element={<Contactus />} />
-              <Route exact path="/all-listing" element={<Contactus />} />
+              <Route exact path="/all-listing" element={<AllListing />} />
               <Route exact path="/chat" element={<SendMessage />} />
               <Route exact path="/details" element={<Details />} />
             </Routes>

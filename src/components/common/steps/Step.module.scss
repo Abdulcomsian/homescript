@@ -14,14 +14,14 @@
   flex-grow: 1;
 }
 
-.step:not(:last-child)::after {
+.step:not(:first-child)::before {
   content: "";
   border: 1px solid #f0f0f0;
   display: inline-block;
 
   flex-grow: 1;
 }
-.step:last-child {
+.step:first-child {
   flex-grow: 0;
 }
 .active .stepNumber {
@@ -30,7 +30,7 @@
   border: 1px solid #1890ff;
   color: white;
 }
-.active.step::after {
+.active.step::before {
   font-weight: bold;
   border: 1px solid #1890ff;
 }

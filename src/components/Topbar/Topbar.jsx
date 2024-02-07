@@ -8,7 +8,7 @@ function Topbar(props) {
         <div className="items">
           <button
             type="button"
-            class="btn "
+            className="btn "
             onClick={() => {
               props.setSideBar(!props.sideBar);
             }}

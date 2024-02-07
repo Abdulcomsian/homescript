@@ -22,7 +22,7 @@ function Resetpassword() {
                 <label>Password</label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter your password"
                 />
               </div>
@@ -30,12 +30,12 @@ function Resetpassword() {
                 <label>Confirm Password</label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter your password"
                 />
               </div>
               <div className="field">
-                <button type="submit" class="btn btn-primary ">
+                <button type="submit" className="btn btn-primary ">
                   Reset Password
                 </button>
               </div>
