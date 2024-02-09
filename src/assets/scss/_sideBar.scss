@@ -1,11 +1,12 @@
 .sidebar-wrapper {
-  width: 15%;
+  width: 0px;
+  opacity: 0;
   border-right: 1px solid lightgray;
   position: fixed;
   top: 0;
   bottom: 0;
   overflow: hidden;
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-out;
 
   .sidebar {
     // width: 15%;
@@ -45,7 +46,7 @@
         }
       }
 
-       .active {
+      .active {
         .label {
           font-weight: 700 !important;
           color: black !important;

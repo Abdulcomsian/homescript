@@ -27,7 +27,9 @@ function Sidebar() {
             <div className="label nav-link-main w-100">
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>Listings</Accordion.Header>
+                  <Accordion.Header className="Navbar-item">
+                    <div class="label">Listings</div>
+                  </Accordion.Header>
                   <Accordion.Body>
                     <ul className="nav-sublist">
                       <li>

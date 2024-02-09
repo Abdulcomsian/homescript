@@ -22,6 +22,12 @@ input::placeholder {
   font-weight: 400;
   color: #999 !important;
 }
+
+.isOpen {
+  width: 250px;
+  opacity: 1;
+}
+
 .error-container {
   background-color: #ff4d4f;
   padding: 0.5rem;
