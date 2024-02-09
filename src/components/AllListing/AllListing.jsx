@@ -58,22 +58,17 @@ export default function AllListing() {
 
   return (
     <div>
-      <div style={{ marginBottom: 16 }}>
+      <div className="all-listingTable-header">
         <Search
           placeholder="Search"
           onSearch={handleSearch}
           onChange={(e) => setSearchItem(e.target.value)}
           style={{ width: 200, marginRight: 16 }}
         />
-        {/* <Select
-          defaultValue={selectedPageSize}
-          style={{ width: 80, marginRight: 16 }}
-          onChange={handlePageSizeChange}
-        >
-          <Option value={10}>10</Option>
+        <Select defaultValue="Sort By">
           <Option value={20}>20</Option>
           <Option value={50}>50</Option>
-        </Select> */}
+        </Select>
       </div>
       <Table dataSource={dataSource} columns={columns} pagination={true} />
     </div>

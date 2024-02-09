@@ -1,0 +1,13 @@
+.all-listingTable-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+}
+
+.ant-pagination-options {
+  order: -1;
+  align-self: flex-start;
+  flex-grow: 1 !important;
+  margin-inline-start: 0 !important;
+}

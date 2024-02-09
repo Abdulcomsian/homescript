@@ -11,18 +11,20 @@ import SendMessage from "../SendMessage/SendMessage";
 import AllListing from "../AllListing/AllListing";
 
 function Dashboard() {
-  const [sideBar, setSideBar] = useState(false);
+  const [sideBar, setSideBar] = useState(true);
 
+  const sideBarWidth = sideBar ? 250 : 0;
+  console.log("Rendered", sideBarWidth);
   return (
     <>
       <div className="wrapper clearfix">
-        <div
-          className="sidebar-wrapper"
-          style={{ width: sideBar ? "0%" : "15%" }}
-        >
+        <div className={`sidebar-wrapper ${sideBar ? "isOpen" : ""}`}>
           <Sidebar />
         </div>
-        <div className="main-panel" style={{ width: sideBar ? "100%" : "85%" }}>
+        <div
+          className="main-panel"
+          style={{ width: `calc(100% - ${sideBarWidth}px)` }}
+        >
           <div className="topbar">
             <Topbar setSideBar={setSideBar} sideBar={sideBar} />
           </div>
