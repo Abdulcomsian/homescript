@@ -6,7 +6,7 @@ import navIcon2 from "../../assets/images/nav-icon2.svg";
 import navIcon3 from "../../assets/images/nav-icon3.svg";
 import navIcon4 from "../../assets/images/nav-icon4.svg";
 import navIcon5 from "../../assets/images/nav-icon5.svg";
-
+import Hambuger from "../../assets/images/hamburger.svg";
 import { BsChevronUp } from "react-icons/bs";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
@@ -16,7 +16,9 @@ function Sidebar() {
     <>
       <div className="sidebar">
         <div className="Logo-section">
+
           <img src={Logo} />
+          <img src={Hambuger} className="mobile-side-trigger" />
         </div>
         <div className="nav-section">
           <NavLink className="Navbar-item">
