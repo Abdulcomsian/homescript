@@ -14,7 +14,8 @@ function Dashboard() {
   const [sideBar, setSideBar] = useState(true);
 
   const sideBarWidth = sideBar ? 250 : 0;
-  console.log("Rendered", sideBarWidth);
+ 
+  // console.log("Rendered", sideBarWidth);
   return (
     <>
       <div className="wrapper clearfix">

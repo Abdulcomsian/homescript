@@ -140,3 +140,30 @@ input::placeholder {
 .ant-input-search-button {
   border-left: none;
 }
+@media only screen and (max-width: 750px) {
+  .Logo-section {
+    display: flex;
+    gap: 25px;
+ }
+  .Logo-section .mobile-side-trigger {
+    transform: rotate(180deg);
+ }
+  .mobile-side-trigger {
+    display: block !important;
+ }
+  .sidebar-wrapper {
+    display: none;
+ }
+  .sidebar-wrapper.isOpen {
+    display: block;
+ }
+  .sidebar-wrapper.isOpen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+ }
+  .main-panel {
+    width: 100% !important;
+ }
+}

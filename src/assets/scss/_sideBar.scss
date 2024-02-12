@@ -7,7 +7,9 @@
   bottom: 0;
   overflow: hidden;
   transition: 0.8s ease-out;
-
+.mobile-side-trigger{
+  display: none;
+}
   .sidebar {
     // width: 15%;
     // border-right: 1px solid lightgray;
