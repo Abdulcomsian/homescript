@@ -63,7 +63,7 @@ export default function AllListing() {
           placeholder="Search"
           onSearch={handleSearch}
           onChange={(e) => setSearchItem(e.target.value)}
-          style={{ width: 200, marginRight: 16 }}
+          style={{ width: 300, marginRight: 16 }}
         />
         <Select defaultValue="Sort By">
           <Option value={20}>20</Option>

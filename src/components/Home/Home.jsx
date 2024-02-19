@@ -12,8 +12,8 @@ import check from "../../assets/images/Check.svg";
 import Laptop from "../../assets/images/laptop.png";
 import descriptionTcon from "../../assets/images/discription.svg";
 import SocialIcon from "../../assets/images/socialHome.svg";
-
 function Home() {
+ 
   return (
     <>
       <div className="Home-Section">
@@ -43,7 +43,7 @@ function Home() {
               <div className="Testimonials">
                 <span>Overview</span>
                 <h3>Features & Benefits </h3>
-                <div className="col-sm-10 col-lg-6 col-xl-4 m-auto">
+                <div className="col-sm-10 col-lg-6 col-xl-5 m-auto">
                   <p>
                     Save time and money by never writing a listing description
                     from scratch again.
@@ -106,7 +106,7 @@ function Home() {
             </div>
             <div className="Switch-Section">
               <p style={{ color: "rgba(140, 140, 140, 1)" }}>Billed Yearly</p>
-              <Switch defaultChecked />
+              <Switch defaultChecked/>
               <p>Billed Monthly</p>
             </div>
             <div className="priceing-card-section container">

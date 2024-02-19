@@ -37,7 +37,7 @@ function Sidebar() {
                       <li>
                         <Link to="/dashboard/all-listing">All Listings</Link>
                       </li>
-                      <li className="fw-bold">
+                      <li>
                         <Link to="/dashboard/newlisting">New Listing</Link>
                       </li>
                     </ul>

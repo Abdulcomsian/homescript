@@ -24,7 +24,7 @@ function Sidebar() {
               <div className="nav-link-main">Listings</div>
               <ul className="nav-sublist">
                 <li>All Listings</li>
-                <li className="fw-b">New Listing</li>
+                <li>New Listing</li>
               </ul>
             </div>
           </NavLink>

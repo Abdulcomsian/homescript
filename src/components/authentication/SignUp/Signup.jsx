@@ -128,7 +128,7 @@ function Signup() {
                   id="flexCheckDefault"
                 />
                 <label className="form-check-label m-0 text-dark">
-                  Agree with Terms & Conditions
+                  Agree with <a href="/dashboard/TermsAndConditions" className="text-primary">Terms & Conditions</a> 
                 </label>
               </div>
               <div className="field">
